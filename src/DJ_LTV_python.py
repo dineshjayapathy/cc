@@ -1,3 +1,11 @@
+
+'''
+Requirement: Python 3.4 or greater
+Libraries to be installed: pandas
+use the following command in command prompt to install it.
+pip install pandas
+'''
+
 import pandas as pd
 import datetime
 import time

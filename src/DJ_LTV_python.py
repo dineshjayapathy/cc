@@ -69,6 +69,7 @@ class LTV:
         df_ltv['ltv']=52*df_ltv['epv']*df_ltv['pg_ct']*10
         df_ltv.sort_values(by='ltv',ascending=False,inplace=True)
         # print(df_ltv)
+        df_ltv['ltv']='$'+df_ltv['ltv'].astype(str)
         df_ltv=df_ltv.drop('countv',1)
         df_ltv=df_ltv.drop('sumtotal',1)
         df_ltv=df_ltv.drop('epv',1)

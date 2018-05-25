@@ -1,0 +1,4 @@
+﻿customer_id,event_time,last_name,adr_city,adr_state
+5,2018-01-04 21:12:30.610,smith,chicago,IL
+6,2018-01-23 21:12:30.610,rk,sfo,CA
+7,2018-01-23 21:12:30.610,rd,boston,ma
